@@ -1,0 +1,9 @@
+[Unit]
+Description=Supervisor for MIDF services
+
+[Service]
+ExecStart=/usr/bin/supervisor-service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
